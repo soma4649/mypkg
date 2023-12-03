@@ -1,0 +1,42 @@
+[0.767s] Invoking command in '/home/takeru/ros2_ws/src/mypkg': PYTHONPATH=/home/takeru/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takeru/ros2_ws/src/mypkg/build/mypkg/build install --record /home/takeru/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.889s] running egg_info
+[0.890s] creating build/mypkg/mypkg.egg-info
+[0.890s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.890s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.891s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.891s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.891s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.896s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.917s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.917s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.917s] running build
+[0.917s] running build_py
+[0.917s] creating /home/takeru/ros2_ws/src/mypkg/build/mypkg/build
+[0.917s] creating /home/takeru/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.917s] creating /home/takeru/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.917s] copying mypkg/talker.py -> /home/takeru/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.917s] copying mypkg/listener.py -> /home/takeru/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.918s] copying mypkg/__init__.py -> /home/takeru/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.918s] running install
+[0.918s] running install_lib
+[0.919s] creating /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.919s] copying /home/takeru/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.920s] copying /home/takeru/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.920s] copying /home/takeru/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.920s] byte-compiling /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[0.921s] byte-compiling /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[0.921s] byte-compiling /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[0.922s] running install_data
+[0.922s] creating /home/takeru/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.922s] creating /home/takeru/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.922s] creating /home/takeru/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.922s] copying resource/mypkg -> /home/takeru/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.922s] copying package.xml -> /home/takeru/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.922s] copying launch/talk_listen.launch.py -> /home/takeru/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.923s] running install_egg_info
+[0.924s] Copying build/mypkg/mypkg.egg-info to /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.924s] running install_scripts
+[0.935s] Installing listener script to /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.935s] Installing talker script to /home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.936s] writing list of installed files to '/home/takeru/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.949s] Invoked command in '/home/takeru/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/takeru/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/takeru/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takeru/ros2_ws/src/mypkg/build/mypkg/build install --record /home/takeru/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
