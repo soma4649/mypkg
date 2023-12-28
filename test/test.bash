@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash -xv
 #SPDX-FileCopyrightText: 2023 Takeru Soma
 #SPDX-License-Indentifier: BSD-3-Clause
 
