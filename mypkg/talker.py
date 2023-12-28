@@ -14,16 +14,11 @@ class Talker():
         self.pub.publish(msg)
         self.n += 1
 
-rclpy.init()
-node = Node("talker")
-talker = Talker(node)
-rclpy.spin(node)
+def main():
+    rclpy.init()
+    node = Node("talker")
+    talker = Talker(node)
+    rclpy.spin(node)
 
-def cb (self):
-    msg = Int16()
-    msg.data = talker.n
-    talker.pub.publish(msg)
-    talker.n += 1
-
-node.create_timer(0.5, cb)
-rclpy.spin(node)
+if __name__ == '__main__':
+    main()
