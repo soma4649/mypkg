@@ -1,3 +1,6 @@
+#SPDX-FileCopyrightText: 2023 Takeru Soma
+#SPDX-License-Indentifier: BSD-3-Clause
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int16
