@@ -21,18 +21,19 @@ $ cd mypkg
 
 ## talkerとlistenerについて
 
+### talker
 
+0.5秒おきに０から１ずつ数を足していき、結果をメッセージとしてlistenerに送る。この時、メッセージはcountupというトピックを通じて送られる。
 
+### listener
 
+talkerから受け取ったメッセージを端末に出力する。
 
 ## launchファイルについて
 
+talkerとlistenerを両方同時に実行する。
 
-
-
-
-## 使用方法
-launchファイルよりtalkerとlistenerを同時に実行します。
+### 使用方法
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 [INFO] [launch]: All log files can be found below /home/takeru/.ros/log/2023-12-28-14-51-06-028442-LAPTOP-E07E4SPD-2096
