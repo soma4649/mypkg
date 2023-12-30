@@ -1,5 +1,7 @@
 # mypkg
 
+[![test](https://github.com/soma4649/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/soma4649/mypkg/actions/workflows/test.yml)
+
 2023年度千葉工業大学ロボットシステム学講義内での課題提出用リポジトリです。
 
 
@@ -54,6 +56,6 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 ## 著作権
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されています.
-* prefecture_capitals.txt、prefectures、test2.bash以外のこのパッケージのコードは、下記のスライド( CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作物としたものです.
+* このパッケージのコードは、下記のスライド( CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作物としたものです.
    * ryuichiueda/my_slides/robosys_2022[[Github Pages](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)]
 * ©　2023 Takeru Soma
