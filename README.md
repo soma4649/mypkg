@@ -1,2 +1,3 @@
 # mypkg
-This is test repository.
+
+2023年度千葉工業大学ロボットシステム学講義内での課題提出用リポジトリです。
