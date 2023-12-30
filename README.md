@@ -1,5 +1,8 @@
 # mypkg
 
+[![test](https://github.com/kouzou2111/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kouzou2111/mypkg/actions/workflows/test.yml)
+
+
 2023年度千葉工業大学ロボットシステム学講義内での課題提出用リポジトリです。
 
 
